@@ -7,12 +7,17 @@ Vue.use(VueRouter)
   {
     path: '/',
     name: 'Index',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Index.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Index')
   },
   {
     path: '/home',
     name: 'Home',
-    component: () => import(/* webpackChunkName: "about" */ '../views/Home/Index.vue')
+    component: () => import(/* webpackChunkName: "about" */ '../views/Home/Index')
+  },
+  {
+    path: '/post',
+    name: 'Post',
+    component: () => import(/* webpackChunkName: "about" */ '../views/Post/Index')
   },
 
 ]
