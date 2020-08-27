@@ -1,0 +1,15 @@
+$flex-justify: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "space-between": space-between,
+  "space-around": space-around
+);
+
+$flex-align: (
+  "start": flex-start,
+  "end": flex-end,
+  "center": center,
+  "baseline": baseline,
+  "stretch": stretch
+);

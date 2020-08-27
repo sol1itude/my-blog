@@ -1,0 +1,21 @@
+@import './variables.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.d-flex{
+    display: flex;
+}
+
+@each $key, $value in $flex-justify {
+    .jc-#{$key} {
+      justify-content: $value;
+    }
+  }
+  @each $key, $value in $flex-align {
+    .al-#{$key} {
+      align-items: $value;
+    }
+  }
